@@ -2,7 +2,7 @@
   <img src="https://static.wikia.nocookie.net/gameland/images/e/e0/Gameland_logo.png/revision/latest?cb=20251231205803" width="250">
 </p>
 🎮 Gameland
-A lightweight 2D game engine written in Python with LuaJIT scripting.
+is a lightweight 2D game engine written in Python with LuaJIT scripting.
 Gameland is a custom game engine built using Python, pygame‑ce, and LuaJIT (via Lupa).
 It’s designed to be simple, fast to iterate on, and easy to script using Lua.
 This project is currently in early development.
