@@ -1,3 +1,12 @@
+# -------------------------------
+# Gameland Game Engine
+# Licensed under MIT License
+# See LICENSE for details.
+# Or go to https://opensource.org/licenses/MIT
+# Created by glkdrlgkrlzflnjkgh and contributors.
+# -------------------------------
+
+
 import os
 import sys
 import time
