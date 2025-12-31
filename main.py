@@ -195,7 +195,7 @@ class Engine:
     def __init__(self, game_folder: str, game_info: dict):
         self.game_folder = game_folder
         self.game_info = game_info
-        print(f"[ENGINE] Initializing engine for game: {self.game_info.get('name', 'Unknown')}")
+        print(f"[ENGINE] Initializing engine for game: {self.game_info.get('name', 'Unknown')}") # prints either game name or "Unknown" if not found
         # Pygame setup
         pygame.init()
         pygame.display.set_caption(self.game_info.get("name", "Gameland Lua Engine"))
