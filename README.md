@@ -46,16 +46,6 @@ This will launch the game select menu where you can select the game you want to 
 
 Place your script where the engine expects it (see main.py for details).
 
-📁 Project Structure
-gameland/
-│
-├── main.py          # Engine core
-├── Pipfile          # Dependencies
-├── Pipfile.lock
-└── LICENSE          # MIT License
-
-
-More structure will be added as the engine grows.
 
 🤝 Contributing
 Gameland is experimental, but contributions, ideas, and feedback are welcome.
