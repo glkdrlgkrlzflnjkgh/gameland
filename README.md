@@ -41,20 +41,7 @@ To start the engine:
 python main.py
 
 
-This will load your Lua script and begin the game loop.
-
-🧪 Example Script
-Here’s a minimal example of a Gameland Lua script:
-function OnInit(api)
-    api:Log("Game started!")
-    api:SpawnEntity("player")
-end
-
-function Update(api, dt)
-    if api:IsKeyDown("right") then
-        api:SetVelocity("player", 100, 0)
-    end
-end
+This will launch the game select menu where you can select the game you want to launch with the arrow keys, then press enter to launch the selected game! (it will prompt you to create/install a game if there are no games!)
 
 
 Place your script where the engine expects it (see main.py for details).
